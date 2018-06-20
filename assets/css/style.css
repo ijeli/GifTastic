@@ -1,4 +1,20 @@
+span {
+    font-size: 50px;
+    font-weight: bold;
 
+}
+
+#hotnew {
+    color: red;
+}
+
+#releases {
+    color: rgb(230, 230, 66);
+}
+
+#year {
+    color: grey;
+}
 
 body {
     background-color: rgb(187, 183, 183);
