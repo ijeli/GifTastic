@@ -27,7 +27,7 @@ function addImageButton () {
 
 function thingsDo () {
 
-$("button").on("click", function() {
+$(".anime").on("click", function() {
     console.log(this);
     var gifImage = $(this).attr("title");
     queryURL = "http://api.giphy.com/v1/gifs/search?q=" + gifImage + "&api_key=EGb3zX7ALbdh6YPVGGbjliinhTFgCnc2&limit=10"
