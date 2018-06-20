@@ -15,25 +15,37 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <header>
-        <h1>GIFTASTIC</h1>
-    </header>
+    <div class = "jumbotron">
+        <h1>E3's Hot New Releases</h1>
+    </div>
 
-    <div id="buttonViewer" class="mybutt"></div>
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-lg-2">
+                <div id="buttonViewer" class="mybutt"></div>
+            </div>
+            <div class = "col-lg-4">
+                <p></p>
+            </div>
+            <div class = "col-lg-6">
+                <form id="imageForm">
+                    <label for="imageInput"><h3>Hot Game Title</h3></label>
+                    <input type="text" id="imageInput">
+                    <input id="addImage" class = "btn btn-outline-dark" type="submit" value="Add a Hot Game">
+                </form>
+            </div>
+        </div>
 
-    <br>
+        <br>
 
-    <form id="imageForm">
-      <label for="imageInput">Add an Image</label>
-      <input type="text" id="imageInput"><br>
-      <input id="addImage" type="submit" value="Add an Image">
-    </form>
-
-    <div id="imageViewer"></div>
+        <div id="imageViewer" class = "row">
+            <div></div>
+        </div>
+    </div>
     
 
 
-    <!--<script src="assets/javascript/script.js"></script>-->
+    <!--<script src="assets/javascript/script.js"></script>--> <!--abomination to society T.T-->
     <script src="assets/javascript/work.js"></script>
 </body>
 
