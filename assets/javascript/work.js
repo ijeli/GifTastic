@@ -4,7 +4,7 @@ var games = ["Halo Infinity", "The Last of Us Part II", "Death Stranding", "Call
 function doWork () {
     $("button").on("click", function() {
     var gifImage = $(this).attr("title");
-    queryURL = "http://api.giphy.com/v1/gifs/search?q=" + gifImage + "&api_key=EGb3zX7ALbdh6YPVGGbjliinhTFgCnc2&limit=10"
+    queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gifImage + "&api_key=EGb3zX7ALbdh6YPVGGbjliinhTFgCnc2&limit=10"
     
     $.ajax({
         url: queryURL,
